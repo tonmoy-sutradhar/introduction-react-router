@@ -1,0 +1,22 @@
+.user-container {
+  border: 3px solid blue;
+  border-radius: 15px;
+  padding: 10px;
+  margin: auto;
+  margin-top: 15px;
+  width: 450px;
+}
+.email {
+  color: blue;
+}
+.btn {
+  padding: 8px;
+  background-color: aqua;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.font {
+  font-size: large;
+  font-weight: 600;
+}
