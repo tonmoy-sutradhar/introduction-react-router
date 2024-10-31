@@ -8,11 +8,13 @@ import Header from "./Components/Header/Header";
 import Contact from "./Components/Contact/Contact";
 import Users from "./Components/Users/Users";
 import UserDetails from "./Components/UserDetails/UserDetails";
+import Error from "./Components/Error/Error";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home></Home>,
+    errorElement: <Error></Error>,
 
     children: [
       {
