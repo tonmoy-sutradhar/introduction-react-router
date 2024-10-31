@@ -5,3 +5,9 @@
   text-decoration: none;
   color: blue;
 }
+
+nav a.active {
+  background-color: orange;
+  padding: 10px;
+  border-radius: 10px;
+}

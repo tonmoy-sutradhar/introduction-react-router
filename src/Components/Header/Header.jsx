@@ -1,22 +1,25 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "./Header.css";
 const Header = () => {
   return (
     <div>
       <nav>
         <h1>My Website</h1>
-        <Link className="ancor" to="/">
+        <NavLink className="ancor" to="/">
           Home
-        </Link>
-        <Link className="ancor" to="/about">
+        </NavLink>
+        <NavLink className="ancor" to="/about">
           About
-        </Link>
-        <Link className="ancor" to="/contact">
+        </NavLink>
+        {/* <Link className="ancor" to="/about">
+          About
+        </Link> */}
+        <NavLink className="ancor" to="/contact">
           Contact Us
-        </Link>
-        <Link className="ancor" to="/user">
+        </NavLink>
+        <NavLink className="ancor" to="/user">
           Users
-        </Link>
+        </NavLink>
       </nav>
     </div>
   );
